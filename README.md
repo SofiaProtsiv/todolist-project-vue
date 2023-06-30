@@ -1,46 +1,72 @@
-# todo-app
+# ToDoList
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a simple ToDoList application built using HTML, SCSS, JavaScript, Vue.js and Vite. It allows you to manage your tasks effectively. You can add new tasks, mark them as completed, edit existing tasks, and delete tasks. The application also provides statistics regarding completed tasks.
 
-## Recommended IDE Setup
+<img src='https://ibb.co/b2DkPd5' alt='My ToDoList'/>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Installation
 
-## Type Support for `.vue` Imports in TS
+1. Clone the repository:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```
+git clone [https://github.com/your-username/ToDoList.git](https://github.com/SofiaProtsiv/todolist-project-vue)
 ```
 
-### Compile and Hot-Reload for Development
+2. Navigate to the project directory and run:
 
-```sh
+```
+npm i
+```
+
+3. Open project localy:
+```
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Features
 
-```sh
-npm run build
+- Add tasks by pressing "Enter"
+- Error message displayed for empty task submission
+- Edit existing tasks
+- Delete tasks
+- Track statistics for completed tasks
+- Ability to move cards between groups by dragging them
+
+## Usage
+
+1. In the input field, enter the task you want to add and press "Enter" to add it to the list.
+<img src='https://ibb.co/ydzJPDM' alt='How to add?'/>
+2. To mark a task as completed, drag the task to a specific "Completed" group, e.g.
+3. To edit the task, click the Edit button and edit it. Click the "Save" button to save your changes.
+<img src='https://ibb.co/D8FqGx0' alt='How to edit?'/>
+4. To delete a task, click the delete button marked with an "X" next to the task.
+5. Each group has statistics, which displays the total number of tasks for a particular group.
+
+## Design
+
+The design of this ToDoList application has been created with a focus on simplicity and ease of use. It features a clean and intuitive user interface to enhance the task management experience.
+
+## Development
+
+To further develop this application, follow these steps:
+
+1. Install dependencies:
+
+```
+npm install
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+2. Run the development server:
 
-```sh
-npm run lint
 ```
+npm run dev
+```
+
+3. Make the necessary changes and enhancements to the code according to your requirements.
+
+## Resources
+
+- [Vue.js Documentation](https://vuejs.org/)
+- [SCSS Documentation](https://sass-lang.com/documentation)
+
+## Enjoy organizing your tasks with ToDoList!
