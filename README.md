@@ -1,6 +1,6 @@
 # ToDoList
 
-This is a simple ToDoList application built using HTML, SCSS, JavaScript, Vue.js and Vite. It allows you to manage your tasks effectively. You can add new tasks, mark them as completed, edit existing tasks, and delete tasks. The application also provides statistics regarding completed tasks.
+This is a simple ToDoList application built using HTML, SCSS, JavaScript + TS, Vue.js and Vite. It allows you to manage your tasks effectively. You can add new tasks, mark them as completed, edit existing tasks, and delete tasks. The application also provides statistics regarding completed tasks. If you refresh the page, all your tasks will remain, because the local storage was used to save tasks.
 
 ![my todolist](./public/todolist.png)
 
