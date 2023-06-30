@@ -2,7 +2,7 @@
 
 This is a simple ToDoList application built using HTML, SCSS, JavaScript, Vue.js and Vite. It allows you to manage your tasks effectively. You can add new tasks, mark them as completed, edit existing tasks, and delete tasks. The application also provides statistics regarding completed tasks.
 
-<img src='https://ibb.co/b2DkPd5' alt='My ToDoList'/>
+![my todolist](./public/todolist.png)
 
 ## Installation
 
@@ -35,10 +35,10 @@ npm run dev
 ## Usage
 
 1. In the input field, enter the task you want to add and press "Enter" to add it to the list.
-<img src='https://ibb.co/ydzJPDM' alt='How to add?'/>
+![how to add](./public/todolist_add.png)
 2. To mark a task as completed, drag the task to a specific "Completed" group, e.g.
 3. To edit the task, click the Edit button and edit it. Click the "Save" button to save your changes.
-<img src='https://ibb.co/D8FqGx0' alt='How to edit?'/>
+![how to edit](./public/todolist_edit.png)
 4. To delete a task, click the delete button marked with an "X" next to the task.
 5. Each group has statistics, which displays the total number of tasks for a particular group.
 
