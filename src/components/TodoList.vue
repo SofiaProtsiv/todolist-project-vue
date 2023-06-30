@@ -16,5 +16,7 @@ import TodoGroup from "./TodoGroup.vue";
   display: flex;
   justify-content: space-around;
   gap: 1.5rem;
+  padding: 0;
+  list-style: none;
 }
 </style>
